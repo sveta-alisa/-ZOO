@@ -1,0 +1,109 @@
+.useful_articles{
+    background: #F6F6F7;
+    padding-bottom: 56px;
+}
+
+.useful_articles_header{
+    display:flex;
+    justify-content: space-between;
+    & h2{
+        color: var(--text-default, #202223);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: SF Pro Display;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+    }
+}
+
+.useful_articles_header_button{
+    display: flex;
+    gap: 16px;
+    & button{
+        background: #FFF;
+    }
+}
+
+.useful_articles_slider{
+    & .slick-track{
+        padding: 24px 0px;
+    }
+}
+
+.useful_articles_slider_item{
+    margin: 0px 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    max-width: 370px;
+    &:hover{
+        cursor: pointer;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.10), 0px 0px 2px 0px rgba(0, 0, 0, 0.06);
+    }
+}
+
+.useful_articles_slider_item_img{
+    border-radius: 5px;
+    max-height: 160px;
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.useful_articles_slider_item_text{
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    & h4{
+        color: var(--text-default, #202223);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    & p{
+        color: var(--text-default, #202223);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+    }
+}
+
+.useful_articles_date_time{
+    display: flex;
+    justify-content: space-between;
+    & p{
+        color: var(--text-disabled, #8C9196);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+
+.useful_articles_time{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.useful_articles_date{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}

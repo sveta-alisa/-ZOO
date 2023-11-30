@@ -1,0 +1,39 @@
+@import "_header_contact.scss";
+@import "_header_main.scss";
+@import "_main_animals.scss";
+@import "_main_advertising.scss";
+@import "_main_discount_popular_goods.scss";
+@import "_main_popular_goods.scss";
+@import "_main_new_goods.scss";
+@import "_main_popular_brands.scss";
+@import "_main_shop_review.scss";
+@import "_slider";
+@import "_useful_articles";
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.view_more_button {
+    padding: 12px 24px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 4px;
+    background: var(--icon-highlight, #00A0AC);
+    box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.20) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.08);
+    color: var(--text-on-primary, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    &:hover {
+        background: var(--text-highlight, #347C84);
+
+    }
+}
